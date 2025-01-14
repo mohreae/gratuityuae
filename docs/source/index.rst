@@ -1,3 +1,7 @@
+.. meta::
+    :google-site-verification lang=en:
+        yV82IoMAddNFvTOfoE9B9lcnmu01sA7HglIob1l1jzY
+
 Leveraging Orfeo ToolBox (OTB) for Enhanced Geospatial Analysis on 1Map
 =================================================================
 
