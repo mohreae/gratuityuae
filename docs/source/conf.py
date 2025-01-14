@@ -2,12 +2,12 @@
 
 # -- Project information
 
-project = 'RTA Dubai API'
-copyright = '2024, Patrick'
-author = 'Patrick'
+project = 'OTB 1Map UAE'
+copyright = '2025, Alex'
+author = 'Alex'
 
-release = '0.1'
-version = '0.1.0'
+release = '1.5'
+version = '1.5.0'
 
 # -- General configuration
 
