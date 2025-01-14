@@ -1,9 +1,6 @@
 Leveraging Orfeo ToolBox (OTB) for Enhanced Geospatial Analysis on 1Map
 =================================================================
 
-1. Introduction
-----------------
-
 1Map, the UAE's national geospatial platform, provides a valuable resource for various sectors. 
 Integrating Orfeo ToolBox (OTB), a powerful open-source library for geospatial image processing, 
 can significantly enhance 1Map's capabilities. This document explores potential use cases 
@@ -63,6 +60,6 @@ Data Integration and Analysis
 5. Conclusion
 -------------
 
-Integrating Orfeo ToolBox into the 1Map platform has the potential to significantly enhance its capabilities for geospatial data analysis and visualization. By leveraging OTB's advanced algorithms and tools, 1Map can deliver more accurate, timely, and insightful information, supporting decision-making across various sectors in the UAE.
+The integration to 1Map platform of Orfeo ToolBox could be used to significantly enhance its geospatial data analysis and visualization capabilities. Through our partnership with OTB, 1Map can enable more timely, accurate and insightful information and support decision making by various sectors in the UAE.
 
 **Note**: This document provides a high-level overview. A detailed implementation plan requires a thorough assessment of 1Map's specific needs and technical requirements.
