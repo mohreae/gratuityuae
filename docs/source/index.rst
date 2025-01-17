@@ -85,3 +85,9 @@ Important Notes
 
 - The maximum gratuity payable is equivalent to two years of the employee's basic salary.
 - This information is for general guidance only. Consult with an HR professional or legal expert for specific advice.
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Salary Simulation
+
+   example
