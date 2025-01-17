@@ -90,4 +90,4 @@ Important Notes
    :maxdepth: 2
    :caption: Salary Simulation
 
-   example
+   example/index
