@@ -1,6 +1,6 @@
 .. meta::
     :google-site-verification lang=en:
-        yV82IoMAddNFvTOfoE9B9lcnmu01sA7HglIob1l1jzY
+        MTdDoNVXOS0cgtx8z-Dg4s1vvP2Cqb2XE0nrdgfcm4E
 
 How to Calculate Gratuity Salary in the UAE
 ===========================================
