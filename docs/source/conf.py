@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'OTB 1Map UAE'
-copyright = '2025, Alex'
-author = 'Alex'
+project = 'Gratuity UAE'
+copyright = '2025, Sayeed'
+author = 'Sayeed'
 
 release = '1.5'
 version = '1.5.0'
