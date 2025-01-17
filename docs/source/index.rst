@@ -2,68 +2,86 @@
     :google-site-verification lang=en:
         yV82IoMAddNFvTOfoE9B9lcnmu01sA7HglIob1l1jzY
 
-Leveraging Orfeo ToolBox (OTB) for Enhanced Geospatial Analysis on 1Map
-=================================================================
+How to Calculate Gratuity Salary in the UAE
+===========================================
 
-1Map, the UAE's national geospatial platform, provides a valuable resource for various sectors. 
-Integrating Orfeo ToolBox (OTB), a powerful open-source library for geospatial image processing, 
-can significantly enhance 1Map's capabilities. This document explores potential use cases 
-and benefits of incorporating OTB into 1Map's infrastructure.
+Gratuity is an end-of-service benefit paid to employees in the UAE. The calculation depends on the employee's length of service and basic salary. Below is a detailed explanation of the calculation process:
 
-2. Potential Use Cases
-----------------------
+1. Determine the Length of Service
+----------------------------------
 
-Image Processing and Analysis
+- **Less than 1 year**: No gratuity is payable.
+- **1-5 years**: Gratuity is based on 21 days of basic salary for each year of service.
+- **More than 5 years**: Gratuity is based on:
+  - 21 days of basic salary for the first 5 years, and
+  - 30 days of basic salary for each additional year of service.
 
-**Pre-processing**:
+2. Calculate Daily Wage
+-----------------------
 
-- **Radiometric Calibration**: Correct for atmospheric effects, sensor variations, and other factors to improve image accuracy.
-- **Geometric Correction**: Correct for geometric distortions in satellite imagery, ensuring accurate geolocation.
-- **Atmospheric Correction**: Remove atmospheric effects like haze and aerosols to improve image clarity and accuracy.
+To calculate the daily wage, divide the employee's monthly basic salary by 30:
 
-**Change Detection**:
+.. math::
 
-- **Monitor Urban Growth**: Track changes in land cover and land use over time.
-- **Assess Environmental Impacts**: Detect changes in vegetation, water bodies, and coastal areas.
-- **Identify Areas of Change**: Detect changes in infrastructure, such as road construction or building development.
+   Daily Wage = \frac{\text{Monthly Basic Salary}}{30}
 
-**Image Classification**:
+3. Calculate Gratuity Amount
+----------------------------
 
-- **Land Cover/Land Use Mapping**: Classify different land cover types (e.g., urban, vegetation, water) using supervised and unsupervised classification techniques.
-- **Object Detection**: Detect and identify objects of interest in imagery, such as buildings, vehicles, and ships.
+- **1-5 years of service**:
 
-**Feature Extraction**:
+  .. math::
 
-- **Extract Features from Imagery**: Extract features such as roads, rivers, and buildings for further analysis and mapping.
-- **Generate Digital Elevation Models (DEMs)**: Generate DEMs from stereo imagery for applications like hydrological modeling and terrain analysis.
+     Gratuity = \frac{\text{Daily Wage} \times 21 \times \text{Years of Service}}{30}
 
-Data Integration and Analysis
---------------
+- **More than 5 years of service**:
+  - Gratuity for the first 5 years:
 
-- **Integrate Various Geospatial Data Sources**: Combine satellite imagery, LiDAR data, and other geospatial datasets for comprehensive analysis.
-- **Perform Spatial Analysis**: Conduct spatial analysis tasks such as buffer analysis, overlay analysis, and proximity analysis.
-- **Develop Geospatial Applications**: Create custom geospatial applications using OTB's Python API for specific needs within 1Map.
+    .. math::
 
-3. Benefits of Integrating OTB
-------------------------------
+       Gratuity_{5\ years} = \frac{\text{Daily Wage} \times 21 \times 5}{30}
 
-- **Enhanced Data Analysis Capabilities**: OTB provides advanced algorithms and tools for sophisticated image processing and analysis.
-- **Improved Data Quality**: Pre-processing and correction algorithms significantly improve the quality of geospatial datasets, leading to more accurate analysis.
-- **Increased Efficiency**: OTB's efficient algorithms and parallel processing capabilities accelerate data processing tasks, improving productivity.
-- **Open-Source and Flexible**: Being open-source, OTB offers flexibility and customization options for specific applications within 1Map.
-- **Community Support**: OTB has an active community offering resources, tutorials, and support for users.
+  - Gratuity for the additional years:
 
-4. Implementation Considerations
----------------------------------
+    .. math::
 
-- **Integration with 1Map Infrastructure**: Seamlessly integrate OTB into 1Map's existing infrastructure, ensuring smooth data flow and interoperability.
-- **User Interface**: Develop a user-friendly interface within 1Map to facilitate access to OTB functionalities.
-- **Data Management**: Establish robust procedures for handling and processing large volumes of geospatial data within 1Map.
-- **Training and Support**: Provide comprehensive training and ongoing support to 1Map users for effective utilization of OTB.
+       Gratuity_{additional} = \frac{\text{Daily Wage} \times 30 \times \text{Additional Years}}{30}
 
-5. Conclusion
--------------
+  - Total Gratuity:
 
-The integration to 1Map platform of Orfeo ToolBox could be used to significantly enhance its geospatial data analysis and visualization capabilities. Through our partnership with OTB, 1Map can enable more timely, accurate and insightful information and support decision making by various sectors in the UAE.
+    .. math::
 
-**Note**: This document provides a high-level overview. A detailed implementation plan requires a thorough assessment of 1Map's specific needs and technical requirements.
+       Total\ Gratuity = Gratuity_{5\ years} + Gratuity_{additional}
+
+Numerical Simulation
+---------------------
+
+**Example 1:**
+
+- **Basic monthly salary**: AED 10,000
+- **Years of service**: 3 years
+
+Steps:
+- Daily Wage: :math:`10,000 / 30 = 333.33`
+- Gratuity: :math:`(333.33 \times 21 \times 3) / 30 = 7,000`
+
+**Result**: Gratuity amount is **AED 7,000**.
+
+**Example 2:**
+
+- **Basic monthly salary**: AED 15,000
+- **Years of service**: 7 years
+
+Steps:
+- Daily Wage: :math:`15,000 / 30 = 500`
+- Gratuity for first 5 years: :math:`(500 \times 21 \times 5) / 30 = 17,500`
+- Gratuity for remaining 2 years: :math:`(500 \times 30 \times 2) / 30 = 10,000`
+- Total Gratuity: :math:`17,500 + 10,000 = 27,500`
+
+**Result**: Gratuity amount is **AED 27,500**.
+
+Important Notes
+---------------
+
+- The maximum gratuity payable is equivalent to two years of the employee's basic salary.
+- This information is for general guidance only. Consult with an HR professional or legal expert for specific advice.
