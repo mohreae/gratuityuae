@@ -87,7 +87,7 @@ Important Notes
 - This information is for general guidance only. Consult with an HR professional or legal expert for specific advice.
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Salary Simulation
 
    example
