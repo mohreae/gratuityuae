@@ -5,7 +5,7 @@
 How to Calculate Gratuity Salary in the UAE
 ===========================================
 
-Gratuity is an end-of-service benefit paid to employees in the UAE. The calculation depends on the employee's length of service and basic salary. Below is a detailed explanation of the calculation process:
+`Gratuity <https://uaetiming.com/gratuity-calculator/>`_ is an end-of-service benefit paid to employees in the UAE. The calculation depends on the employee's length of service and basic salary. Below is a detailed explanation of the calculation process:
 
 1. Determine the Length of Service
 ----------------------------------
